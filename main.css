@@ -1,0 +1,28 @@
+h1 {
+    border: 3px solid white;
+    background-color:#6AB3B6;
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+body {
+    font-family: Arial;
+    background-color:white; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
