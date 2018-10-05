@@ -5,12 +5,16 @@ h1 {
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
+h5 {
+    float: center;
+}
+
 body {
     font-family: Arial;
     background-color:white; 
 }
 
-* {
+*{
     box-sizing: border-box;
 }
 
@@ -20,7 +24,6 @@ body {
     padding: 5px;
 }
 
-/* Clearfix (clear floats) */
 .row::after {
     content: "";
     clear: both;
