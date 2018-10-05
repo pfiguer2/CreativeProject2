@@ -49,28 +49,28 @@ function nottrendyDad() {
 }
 
 function handymanDad() {
-  var options3 = ["hammer", "toolbelt", "tools", "mistakes", "broken", "fix"];
+  var options3 = ["hammer", "toolbelt", "tools", "mistakes", "broken", "fix", "superglue"];
   var randInt = Math.floor(Math.random() * options3.length);
   var itemHandymanDad = options3[randInt];
   getJoke(itemHandymanDad, true);
 }
 
 function chefDad() {
-  var options4 = ["cooking", "food", "cheese", "wine", "poodle"];
+  var options4 = ["cooking", "food", "cheese", "wine", "poodle", "restaurant"];
   var randInt = Math.floor(Math.random() * options4.length);
   var itemChefDad = options4[randInt];
   getJoke(itemChefDad, true);
 }
 
 function chuloDad() {
-  var options5 = ["exercise", "muscles", "protein", "drugs", "bear"];
+  var options5 = ["exercise", "muscles", "protein", "drugs", "bear", "grate", "girls"];
   var randInt = Math.floor(Math.random() * options5.length);
   var itemChuloDad = options5[randInt];
   getJoke(itemChuloDad, true);
 }
 
 function gangsterDad() {
-  var options6 = ["nice", "ghetto"];
+  var options6 = ["nice", "ghetto", "cars", "trailer", "tatoos", "trash", "alligators", "valley girls"];
   var randInt = Math.floor(Math.random() * options6.length);
   var itemGangsterDad = options6[randInt];
   getJoke(itemGangsterDad, true);

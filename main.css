@@ -1,16 +1,24 @@
 h1 {
     border: 3px solid white;
-    background-color:#6AB3B6;
+    background-color:skyblue;
     color: white;
     font-family: "Arial Black", Gadget, sans-serif;
 }
 
-h5 {
+h2 {
+    font-family: "Arial Black", Gadget, sans-serif;
     float: center;
+    color: skyblue;
+}
+
+h5 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    float: center;
+    color: skyblue;
 }
 
 body {
-    font-family: Arial;
+    font-family: "Arial Black", Gadget, sans-serif;
     background-color:white; 
 }
 
@@ -21,11 +29,28 @@ body {
 .column {
     float: left;
     width: 33.33%;
-    padding: 5px;
+    padding: 25px;
+    padding-left: 25 px; 
+    padding-right: 25px;
 }
 
 .row::after {
     content: "";
     clear: both;
     display: table;
+    padding-top: 40px;
+    clear: both;
+    display: table;
+    padding-left: 25 px; 
+    padding-right: 25px;
+
+}
+
+img {
+    border-radius: 8px;
+    float: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
